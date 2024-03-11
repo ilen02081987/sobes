@@ -78,4 +78,27 @@ func main() {
 
 ~~~
 
+### Что выведет программа? 
+
+~~~go
+package main
+
+import "fmt"
+
+func main() {
+
+	var m = map[int]int{}
+	m[0] = 3
+	m[1] = -5
+	m[2] = 4
+	m[3] = 7
+
+	for _, val := range m {
+		fmt.Printf("val = %d\n", val)
+	}
+
+}
+
+~~~
+
 
